@@ -1,224 +1,224 @@
-# Fix holes and customize the map (Updated to A Safehouse in the Hills)
+# Corrija buracos e personalize o mapa (Atualizado para A Safehouse in the Hills)
 
-The purpose of this script is to fix the holes in the map by loading zones that aren’t loaded by default. I’ve added quite a lot of places to load, based on [Mikeeh’s script](https://forum.fivem.net/t/release-load-unloaded-ipls/5911). If you just want to fix the holes in the map, then use this resource as provided.
+O objetivo deste script é corrigir os buracos no mapa carregando zonas que não são carregadas por padrão. Adicionei muitos locais para carregar, com base no [script do Mikeeh](https://forum.fivem.net/t/release-load-unloaded-ipls/5911). Se você só quiser corrigir os buracos no mapa, use este recurso como está.
 
-This resource has been completely rewritten from scratch since v2.0. You can customize almost every storymode and online purchasable interiors from your own resources.
+Este recurso foi completamente reescrito do zero desde a v2.0. Você pode personalizar praticamente todos os interiores compráveis do modo história e do online a partir dos seus próprios recursos.
 
 ## Download
-- Latest version: https://github.com/Bob74/bob74_ipl/releases/latest
+- Versão mais recente: https://github.com/Bob74/bob74_ipl/releases/latest
 
-- Source code: https://github.com/Bob74/bob74_ipl
+- Código-fonte: https://github.com/Bob74/bob74_ipl
 
 ## [Wiki](https://github.com/Bob74/bob74_ipl/wiki)
-- The Wiki has been created to help you customize your interiors as you wish. It contains every function you can use for each interior.
-- Each Wiki page has an example at the bottom of the page to show how you can use it in your own resource.
-- Also at the bottom of the Wiki will show you the default values set by `IPL_NAME.LoadDefault()`.
+- A Wiki foi criada para ajudar você a personalizar seus interiores como quiser. Ela contém todas as funções que você pode usar para cada interior.
+- Cada página da Wiki tem um exemplo no final para mostrar como você pode usá-la no seu próprio recurso.
+- Também no final da Wiki são mostrados os valores padrão definidos por `IPL_NAME.LoadDefault()`.
 
-## Install
-1. Download the [latest version](https://github.com/Bob74/bob74_ipl/releases/latest).
-2. Extract `bob74_ipl.zip` and copy the `bob74_ipl` into your `resources` folder.
-3. Add `start bob74_ipl` to your your `server.cfg` file.
+## Instalação
+1. Baixe a [versão mais recente](https://github.com/Bob74/bob74_ipl/releases/latest).
+2. Extraia `bob74_ipl.zip` e copie a pasta `bob74_ipl` para a sua pasta `resources`.
+3. Adicione `start bob74_ipl` ao seu arquivo `server.cfg`.
 
-## Screenshots
-- [After Hours Album](https://imgur.com/a/Qg96l0D)
-- [Misc. Album](https://imgur.com/a/cs9Ip4d)
-- [IPL Fix Album](https://imgur.com/a/1Sfl4)
+## Capturas de tela
+- [Álbum After Hours](https://imgur.com/a/Qg96l0D)
+- [Álbum Variado](https://imgur.com/a/cs9Ip4d)
+- [Álbum de Correções de IPL](https://imgur.com/a/1Sfl4)
 
 ## Changelog
 
-<details><summary>Click to view</summary>
-(DD/MM/YYYY)
+<details><summary>Clique para visualizar</summary>
+(DD/MM/AAAA)
 
 ---
 20/12/2025 - 2.6.0
-- Added "A Safehouse in the Hills" support
-- Fix typos in "The Contract" files
-- Fix unloading disabled entities after resource restart
+- Adicionado suporte a "Um Refúgio nas Colinas"
+- Corrigidos erros de digitação nos arquivos de "The Contract"
+- Corrigido descarregamento de entidades desativadas após reinício do recurso
 
 18/06/2025 - 2.5.0
-- Added "Money Fronts" support
-- Added arcade interior
+- Adicionado suporte a "Money Fronts"
+- Adicionado interior de fliperama
 
 18/04/2025 - 2.4.2
-- Fix calling interior natives with invalid types
+- Corrigida chamada de nativas de interior com tipos inválidos
 
 25/02/2025 - 2.4.1
-- Add hangar door
-- Rename "Bottom Dollar Bounties" folder to a more clear name
+- Adicionada porta do hangar
+- Pasta "Bottom Dollar Bounties" renomeada para um nome mais claro
 
 27/12/2024 - 2.4.0
-- Added "Agents of Sabotage" support
-- Fixed Eclipse Boulevard Garage tint colors (@DevSekai)
+- Adicionado suporte a "Agents of Sabotage"
+- Corrigidas cores de tonalidade da garagem Eclipse Boulevard (@DevSekai)
 
 28/08/2024 - 2.3.3
-- Fixed door on cargo ship (@NeenGame)
-- Fixed Franklin interior (@NeenGame)
+- Corrigida porta no navio cargueiro (@NeenGame)
+- Corrigido interior do Franklin (@NeenGame)
 
 24/08/2024 - 2.3.2
-- Added Kosatka and "The Music Locker" interiors
-- Removed `Citizen` prefix from code
+- Adicionados interiores do Kosatka e do "The Music Locker"
+- Prefixo `Citizen` removido do código
 
 10/08/2024 - 2.3.1
-- Fix world not rendering when inside security offices
-- Fix typos in "Los Santos Tuners" files
+- Correção de mundo não renderizando dentro de escritórios de segurança
+- Corrigidos erros de digitação nos arquivos de "Los Santos Tuners"
 
 02/07/2024 - 2.3.0
-- Added "Bottom Dollar Bounties" support
+- Adicionado suporte a "Bottom Dollar Bounties"
 
 14/04/2024 - 2.2.1
-- Allow disabling San Andreas Mercenaries fixes
-- Allow setting base game cargo ship as sunk
-- Rename `ChopShopSalvage.Ipl.Load()` to `ChopShopSalvage.Ipl.Exterior.Load()`
-- Rename `DrugWarsFreakshop.Ipl.Load()` to `DrugWarsFreakshop.Ipl.Exterior.Load()`
-- Rename `DrugWarsGarage.Ipl.Load()` to `DrugWarsGarage.Ipl.Exterior.Load()`
+- Permitido desativar correções de San Andreas Mercenaries
+- Permitido definir o navio cargueiro do jogo base como afundado
+- `ChopShopSalvage.Ipl.Load()` renomeado para `ChopShopSalvage.Ipl.Exterior.Load()`
+- `DrugWarsFreakshop.Ipl.Load()` renomeado para `DrugWarsFreakshop.Ipl.Exterior.Load()`
+- `DrugWarsGarage.Ipl.Load()` renomeado para `DrugWarsGarage.Ipl.Exterior.Load()`
 
 06/04/2024 - 2.2.0
-- Added "Los Santos Drug Wars" support
-- Added "San Andreas Mercenaries" support
-- Added "The Chop Shop" support
-- Added missing base IPLs
+- Adicionado suporte a "Los Santos Drug Wars"
+- Adicionado suporte a "San Andreas Mercenaries"
+- Adicionado suporte a "The Chop Shop"
+- IPLs base ausentes adicionadas
 
 27/03/2024 - 2.1.4
-- North Yankton improvements (https://github.com/Bob74/bob74_ipl/pull/131 @TheIndra55)
+- Melhorias em North Yankton (https://github.com/Bob74/bob74_ipl/pull/131 @TheIndra55)
 
 05/12/2023 - 2.1.3
-- Added missing train track near Davis Quartz (https://github.com/Bob74/bob74_ipl/pull/129 @TheIndra55)
+- Adicionado trecho de trilho ausente próximo a Davis Quartz (https://github.com/Bob74/bob74_ipl/pull/129 @TheIndra55)
 
 10/01/2023 - 2.1.2
-- Fix native and update native names (@NeenGame)
+- Correção de nativa e atualização de nomes de nativas (@NeenGame)
 
 24/10/2022 - 2.1.1
-- Fix vespucci beach wall hole
-- Fix Boat House Door in Sandy Shores
-- Fix GTA 5 24/7 Roof in Sandy Shores
-- Fix Industrial Building near Lesters Warehouse
-- Fix Collision Holes near Lost MC compound
+- Correção de buraco no muro de Vespucci Beach
+- Correção da porta da casa de barcos em Sandy Shores
+- Correção do telhado da loja 24/7 de GTA 5 em Sandy Shores
+- Correção de prédio industrial próximo ao armazém do Lester
+- Correção de buracos de colisão perto do complexo da Lost MC
 
 11/10/2022 - 2.1.0a
-- Make Doomsday Facility Objects non network
+- Objetos da Facility de Doomsday tornados não-rede
 
 03/08/2022 - 2.1.0
-- Added "The Criminal Enterprises" support
+- Adicionado suporte a "The Criminal Enterprises"
 
 02/05/2022 - 2.0.15
-- Reformatted code
-- Removed unused .gitignore
-- Bumped version in fxmanifest.lua
-- Improved performance
+- Código reformatado
+- `.gitignore` não utilizado removido
+- Versão atualizada em `fxmanifest.lua`
+- Performance melhorada
 
 21/04/2022 - 2.0.14
-- Fix casino penthouse carpet patterns colors
+- Correção de cores dos padrões de carpete da cobertura do cassino
 
 12/02/2022 - 2.0.13a
-- Fix Music Roof
+- Correção do Music Roof
 
 12/02/2022 - 2.0.13
-- Added Contract IPLs: Garage, Studio, Offices, Music Roof, Billboards
+- IPLs do Contract adicionadas: Garage, Studio, Offices, Music Roof, Billboards
 
 10/02/2022 - 2.0.12
-- Fix FIB roof
+- Correção do telhado do FIB
 
 07/02/2022 - 2.0.11
-- Added Tuners IPLs: Garage, Meth Lab, Meetup
+- IPLs do Tuners adicionadas: Garage, Meth Lab, Meetup
 
 18/01/2022 - 2.0.10b
-- Change water in yachts to be non-networked.
+- Alterada a água dos iates para não-rede.
 
 01/08/2021 - 2.0.10a
-- Improved performance
-- Fixed hole in the FIB fountain
-- Fixed error appearing if casino IPL is loaded, but the game build is not sufficient
-- Fixed a few typos in the README file
+- Performance melhorada
+- Corrigido buraco na fonte do FIB
+- Corrigido erro que aparecia se o IPL do cassino estava carregado, mas o build do jogo não era suficiente
+- Corrigidos alguns erros de digitação no arquivo README
 
 19/07/2021 - 2.0.10
-- Added Diamond Casino IPLs: Casino, Garage, VIP garage, Penthouse
-- Import: Forced refresh of CEO Garages
-- Updated fxmanifest fx_version to cerulean
-- Updated IPL list link in fxmanifest nad removed outdated Props list and Interior ID list
-- Fixed export typo in `michael.lua`
-- Removed unnecessary space in north_yankton IPL
+- IPLs do Diamond Casino adicionadas: Casino, Garage, VIP garage, Penthouse
+- Import: atualização forçada das CEO Garages
+- `fx_version` em `fxmanifest` atualizado para cerulean
+- Link da lista de IPL atualizado em `fxmanifest` e listas antigas de Props e Interior ID removidas
+- Erro de digitação de export corrigido em `michael.lua`
+- Espaço desnecessário removido no IPL de north_yankton
 
 27/05/2020 - 2.0.9a
-- Fixed disabling Pillbox Hospital
-- Fixed `ResetInteriorVariables`
+- Corrigida desativação do Hospital Pillbox
+- `ResetInteriorVariables` corrigido
 
 23/04/2020 - 2.0.9
-- Replaced deprecated __resource.lua with fxmanifest.lua
-- Added ferris wheel on the Del Perro Pier
-- Reformatted client.lua
+- `__resource.lua` obsoleto substituído por `fxmanifest.lua`
+- Roda-gigante adicionada no píer de Del Perro
+- `client.lua` reformatado
 
 20/10/2019 - 2.0.8
-- Nightclubs: Added dry ice emitters
-- Heist & Gunrunning: Added water to the yachts hot tubs (to enable/disable)
-- Offices: Added a way to open and close the safes
-- Facility: Added privacy glass
-- Moved Bahama Mamas and PillBox Hospital in their own files
-- Fixed error `ReleaseNamedRendertarget`
-- Cleaned and optimized the code
+- Nightclubs: emissores de gelo seco adicionados
+- Heist & Gunrunning: água adicionada nas banheiras de hidromassagem dos iates (para ativar/desativar)
+- Offices: adicionada forma de abrir e fechar os cofres
+- Facility: vidro de privacidade adicionado
+- Bahama Mamas e PillBox Hospital movidos para seus próprios arquivos
+- Erro `ReleaseNamedRendertarget` corrigido
+- Código limpo e otimizado
 
 22/03/2019 - 2.0.7c
-- CEO Offices: Changed the default loaded garage to ImportCEOGarage4.Part.Garage2 in order to avoid Office glitches
+- CEO Offices: garagem padrão carregada alterada para ImportCEOGarage4.Part.Garage2 para evitar glitches no escritório
 
 15/01/2019 - 2.0.7b
-- Nightclubs: Fixed a typo for the fake lights
+- Nightclubs: erro de digitação das luzes falsas corrigido
 
 15/01/2019 - 2.0.7a
-- Nightclubs: Added the ability to set no podium (using `AfterHoursNightclubs.Interior.Podium.none`)
+- Nightclubs: adicionada a capacidade de definir sem pódio (usando `AfterHoursNightclubs.Interior.Podium.none`)
 
 14/01/2019 - 2.0.7
-- Changed the way Trevor’s trailer is handled and added a Wiki entry.
-- Added a way to open or close Zancudo’s gates with a Wiki entry.
+- A forma como o trailer do Trevor é tratada foi alterada e uma entrada na Wiki foi adicionada.
+- Adicionada uma forma de abrir ou fechar os portões de Zancudo com uma entrada na Wiki.
 
 12/01/2019 - 2.0.6
-- Added nightclubs interior and exteriors
-- Removed Zancudo gates by default (file bob74_ipl/gtav/base.lua: RequestIpl("CS3_07_MPGates") is now commented)
+- Adicionados interior e exteriores de nightclubs
+- Portões de Zancudo removidos por padrão (arquivo bob74_ipl/gtav/base.lua: `RequestIpl("CS3_07_MPGates")` agora está comentado)
 
 29/12/2018 - 2.0.5a
-- Fixed the name of the BikerClubhouse1 export
+- Nome do export de BikerClubhouse1 corrigido
 
 19/12/2018 - 2.0.5
-- Fixed a typo that prevents the printers, security stuff, and cash piles to spawn in the counterfeit cash factory
+- Corrigido erro de digitação que impedia impressoras, itens de segurança e pilhas de dinheiro de aparecerem na fábrica de dinheiro falso
 
 10/11/2018 - 2.0.4
-- Fixed an issue where the clubhouse2 lower walls wouldn’t be colored on the first resource start
-- Fixed gang members names using an old format
-- Disabled the Mod shop from CEO garage 3 (ImportCEOGarage3) because it is overlapping with CEO office 3 (FinanceOffice3)
+- Corrigido problema em que as paredes inferiores do clubhouse2 não recebiam cor na primeira inicialização do recurso
+- Nomes dos membros de gangue corrigidos (formato antigo)
+- Mod shop da CEO garage 3 (ImportCEOGarage3) desativada porque sobrepõe a CEO office 3 (FinanceOffice3)
 
 08/11/2018 - 2.0.3
-- Added biker gang’s name, missions, and members pictures
-- Added CEO office organization’s name
+- Nome da gangue de bikers, missões e fotos dos membros adicionados
+- Nome da organização do escritório CEO adicionado
 
 05/11/2018 - 2.0.1
-- Removed overlapping Zancudo River
-- Added the trailer near Zancudo River
+- Sobreposição no Rio Zancudo removida
+- Trailer próximo ao Rio Zancudo adicionado
 
 04/11/2018 - 2.0.0
-- Plugin totally rewritten
-- Support for all DLC (up to The Doomsday Heist)
-- Ability to easily customize story mode and online purchasable interiors
-- You can still use it as it is if you want IPL and interiors to be loaded, the plugin sets a default style for each one
-- Check out the Wiki to find out how: https://github.com/Bob74/bob74_ipl/wiki
+- Plugin totalmente reescrito
+- Suporte para todas as DLCs (até The Doomsday Heist)
+- Capacidade de personalizar facilmente interiores compráveis do modo história e do online
+- Você ainda pode usá-lo como está se quiser IPL e interiores carregados; o plugin define um estilo padrão para cada um
+- Confira a Wiki para descobrir como: https://github.com/Bob74/bob74_ipl/wiki
 
 26/06/2017
-- Added optional IPL
-- Bunkers exteriors (enabled)
-- Bunkers interior
-- CEO Offices
-- Bikers places (some are still buggy)
-- Import/Export locations
-- Removed the trick to open Lost’s safehouse since the last update already opens it
+- IPL opcional adicionada
+- Exteriores de bunkers (ativados)
+- Interior de bunkers
+- Escritórios CEO
+- Locais dos Bikers (alguns ainda têm bugs)
+- Locais de Import/Export
+- Removido o truque para abrir o esconderijo da Lost, já que a última atualização já o abre
 
 19/06/2017
-- Fix hole in Zancudo River
-- Fix hole in Cassidy Creek
-- Add optional graffiti on some billboards (enabled by default)
-- Opened Lost’s safehouse interior
+- Corrigido buraco no Rio Zancudo
+- Corrigido buraco em Cassidy Creek
+- Grafite opcional adicionado em alguns outdoors (ativado por padrão)
+- Interior do esconderijo da Lost aberto
 
 14/06/2017
-- Original release
+- Lançamento original
 </details>
 
-## Contributors
+## Colaboradores
 
 <a href="https://github.com/Bob74/bob74_ipl/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=Bob74/bob74_ipl" />
